@@ -1,0 +1,330 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+body{
+    background-color:rgb(201, 171, 209);
+}
+.title {
+    text-align: center;
+    color: #2a530a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5em;
+    background-color: rgb(201, 171, 209);
+}
+.column-left {
+    width: 50vw;
+    height: auto;
+    float: left;
+}
+.column-right{
+    width:50vw;
+    height: auto;
+    float: right;
+}
+#welcome{
+    text-align: center;
+    color:rgb(54, 42, 105);
+    font-size: 2.5em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    text-align: left;
+    font-size: 1.5em;
+    color: rgb(54, 42, 105);
+    font-family:'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    color:rgb(35, 26, 77);
+    font-size: 2.5em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#welcome-body{
+    text-align: left;
+    font-size: 1.5em;
+    color: rgb(54, 42, 105);
+    font-family:'Times New Roman', Times, serif;
+    margin-right: -10px;
+    margin-left: 40px;
+}
+.navlink{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 3em;
+    color: rgb(54, 42, 105);
+    margin-left: 2em;
+    margin-right: 2em;
+}
+#about-me-title{
+    text-align: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 50vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(35, 26, 77);
+    font-size: 2.5em;
+    margin-left: -2em;
+}
+#about-me-body{
+    width: 42vw;
+    text-align: left;
+    padding-left:1em;
+    padding-right: 1em;
+    margin-left: 4vw;
+    margin-right: 10vw;
+    margin-bottom: 3vw;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(35, 26, 77);
+    font-size: 1em;
+}
+#resume-link{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 2em;
+    color: rgb(54, 42, 105);
+    margin-left: 10vw;
+    margin-right: 2vw;
+    background-color: rgb(239, 230, 242);
+    padding: .25em;
+    border-radius: 10px;
+}
+#interests-title{
+    text-align: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 50vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(35, 26, 77);
+    font-size: 2.5em;
+    margin-left: -2em;
+    margin-top: -38vw;
+}
+#interests{
+    width:42vw;
+    margin-left:3em;
+    margin-right: 3em;
+    float:right;
+    margin-top: -2vw;
+}
+#headshot{
+    width:30vw;
+    height: auto;
+    border-style: hidden;
+    border-radius: 10px;
+    display:flex;
+    margin-left:3em;
+    margin-right: 7em;
+    margin-top:-34vw;
+    float: right;
+}
+.navbar{
+    background-color:#cfe0c3 ;
+    border: hidden;
+    border-radius: 10px;
+    bottom: 0;
+    width: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: .65em;
+    color: rgb(54, 42, 105);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    padding-top:1em;
+    padding-bottom: 1em;
+}
+#about-website{
+    width: 30vw;
+    height: auto;
+    border: hidden;
+    background-color: rgb(239, 230, 242);
+    padding: .5em;
+    border-radius:10px;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+#web-title{
+font-size: 1.5em;
+color:#2a530a;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+#about-web-body{
+    font-size:1.2em;
+    width:30vw;
+    height: auto;
+    color: #2a530a;
+    font-family:'Times New Roman', Times, serif;
+    padding:.5em;
+    text-align:left;
+}
+table{
+    width:45vw;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+td{
+    border: solid 2px;
+    border-radius: 10px;
+    border-color:rgb(35, 26, 77);
+    text-align: left;
+    font-weight:500;
+    padding-left: .5em;
+    padding-right: .5em;
+    font-size:1.1em;
+    color: rgb(35, 26, 77);
+    font-family:'Times New Roman', Times, serif;
+}
+th{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color:rgb(35, 26, 77);
+}
+#phalaina{     
+    width:10vw;
+    height: auto;
+    border-style: hidden;
+    border-radius: 10px;
+    display:flex;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 20vw;
+    margin-top: -53vw;
+    float: left;
+}
+#blood-water{
+    width:10vw;
+    height: auto;
+    border-style: hidden;
+    border-radius: 10px;
+    display:flex;
+    margin-left: 29vw;
+    margin-right: 1em;
+    margin-bottom: 20vw;
+    margin-top: -55vw;
+    float: left;
+}
+#tituba{
+    width:10vw;
+    height: auto;
+    border-style: hidden;
+    border-radius: 10px;
+    display:flex;
+    margin-left: 1em;
+    margin-right: 3em;
+    margin-bottom: 20vw;
+    margin-top: -55vw;
+    float: left;
+}
+#my-favorites{
+    text-align: center;
+    padding-left: .5em;
+    padding-right: .5em;
+    width: 40vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(35, 26, 77);
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    font-size: 2.5em;
+}
+#favorites-body{ 
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 40vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(35, 26, 77);
+    margin-left: 1.5em;
+    margin-right: 1.25em;
+    font-size: 1.15em;
+}
+#currently-reading{ 
+    text-align: center;
+    padding-left: .5em;
+    padding-right: .5em;
+    width: 40vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(35, 26, 77);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -35vw;
+    font-size: 2.5em;
+}
+#current-read-body{
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 40vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(35, 26, 77);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    /* font-weight: 600; */
+}
+ol{
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 40vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(35, 26, 77);
+    margin-left: 2em;
+    margin-right: auto;
+    font-size: 1.3em;
+    font-weight:300;
+}
+#emailbody{
+    width: 60vw;
+    height: auto;
+    margin-left: 20vw;
+    margin-top: 2.5vw;
+    margin-right: 20vw;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color:rgb(35, 26, 77);
+}
+#emailme{
+    width: 25vw;
+    font-size: .5em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: hidden;
+    border-radius: 10px;
+    background-color:rgb(239, 230, 242);
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+#emaildisclaimer{
+    width: 60vw;
+    height: auto;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color:rgb(35, 26, 77);
+}
+footer{
+        width: 100%;
+        color: #cfe0c3;
+        text-align: center;
+        padding:.5em;
+        float:inline-end;
+      }
+
